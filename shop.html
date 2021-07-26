@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Tree Shop</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="gulped_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="gulped_modules/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+    <link href="css/agency.css" rel="stylesheet">
+</head>
+<body id="page-top">
+    <!------------------------------------- Navigation Bar --------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">Tree Store</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="login/login.php?location=/shop.html">Login</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="storelocations.html">Store Locations</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!----------------------------------------------- Hero Header ------------------------------------------------------>
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To the</div>
+                <div class="intro-heading text-uppercase">Tree Store</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="index.html">Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <!------------------------------------------------------------------------------------------------------------------------->
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <h1 class="my-4">Tree Shop</h1>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Trees</a>
+                    <a href="#" class="list-group-item">Shrubs</a>
+                    <a href="#" class="list-group-item">Potting Mix</a>
+                </div>
+                
+              
+              
+              
+              
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+               
+                <!-- filtering search menu-->
+                <br>
+                <h6>Filter<h6>
+                <h6>Name<h6>
+                <div>
+                    <select id="name">
+                      <option value="">Choose a name...</option>
+                      <option value="Peach Tree">Peach Tree</option>
+                      <option value="Portugal Laurel">Portugal Laurel</option>
+                      <option value="Leyland Cypress">Leyland Cypress</option>
+                      <option value="Manuka">Manuka</option>
+                      <option value="Eucalyptus">Eucalyptus</option>
+                      <option value="Nikau">Nikau</option>
+                      <option value="English Oak">English Oak</option>
+                      <option value="Japanese Maple">Japanese Maple</option>
+                      <option value="Dwarf Apple">Dwarf Apple</option>
+                      <option value="Kauri">Kauri</option>
+
+                    </select>
+                </div> 
+                <h6>Category<h6>
+                <div>
+                    <select id="category">
+                      <option value="">Choose a category...</option>
+                      <option value="Fruit">Fruit</option>
+                      <option value="Hedge">Hedge</option>
+                      <option value="Evergreen">Evergreen</option>
+                      <option value="NZ Native">NZ Native</option>
+                      <option value="Gum">Gum</option>
+                      <option value="Palm">Palm</option>
+                      <option value="Hardwood">Hardwood</option>
+                    </select>
+                </div>
+                <h6>Conditions (Drainage/Shade)<h6>
+                <div>
+                    <select id="conditions">
+                      <option value="">Choose a condition...</option>
+                      <option value="FastDrainage">Fast Drainage</option>
+                      <option value="ModerateDrainage">Moderate Drainage</option>
+                      <option value="SlowModerate">Slow Moderate</option>
+                      <option value="Fullsun">Full sun</option>
+                      <option value="Halfsun/halfshade">Half sun/half shade</option>
+                      <option value="Fullshade">Full shade</option>
+                    </select>
+                </div>
+                <h6>Maintainence<h6>
+                <div>
+                    <select id="maintenance">
+                      <option value="">Choose a maintainence level...</option>
+                      <option value="Low">Low</option>
+                      <option value="High">High</option>
+                    </select>
+                </div>
+                 <h6>Max height<h6>
+                <div>
+                    <select id="max_height">
+                      <option value="">Choose a Max Height (meters)...</option>
+                      <option value="<1m">&lt;1</option>
+                      <option value="1-2m">1-2</option>
+                      <option value="2-3m">2-3</option>
+                      <option value=">3m">&gt;3</option>
+                    </select>
+                </div>
+                 <h6>Growth Rate<h6>
+                <div>
+                    <select id="growth_rate">
+                      <option value="">Choose a Growth Rate (meters)...</option>
+                      <option value="Slow">Slow</option>
+                      <option value="Medium">Medium</option>
+                      <option value="Fast">Fast</option>
+                    </select>
+                </div>
+                 <h6>Price<h6>
+                <div>
+                      <input type="range" min="1" max="100" value="50" class="slider" id="price">
+                      <p>Less than: $<span id="slider_label"></span></p>
+                </div>
+                <script type="module" src="filter.js"></script>
+                
+            
+                <!-- filtering search menu-->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-9">
+                <br><br><br><br>
+                <div class="row" id="tree-cards">
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.col-lg-9 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <!---------------------------- Footer ---------------------------->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="copyright"></span>
+
+                            <a class="btn btn-primary btn-m text-uppercase" href="storelocations.html">Shop Trees</a><br>
+                                <a class="btn btn-primary btn-m text-uppercase" href="#">Accessories</a><br>
+                                <a class="btn btn-primary btn-m text-uppercase" href="cart.html">Cart</a><br>
+                                <a class="btn btn-primary btn-m text-uppercase" data-toggle="modal" data-target = "#exampleModal">Account</a><br>
+                        </div>
+
+                        <div class="col-md-4">
+                        <img src="https://comps.canstockphoto.com/tree-silhouette-illustration_csp40988129.jpg" style="max-height: 200px">
+                        </div><br>
+                        <div class="col-md-4">
+                            <br><a class="btn btn-primary btn-m text-uppercase" href="storelocations.html">Store Locations</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="gulped_modules/jquery/jquery.min.js"></script>
+    <script src="gulped_modules/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="gulped_modules/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+</body>
+    
+</html>
